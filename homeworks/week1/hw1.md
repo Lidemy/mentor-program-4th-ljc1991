@@ -29,9 +29,9 @@
 
 6. 新建一個版本（提交變更），並留下相關說明。  
 
-    `git commit -m "week1 HM done"  // -m: messenger`  
+    `git commit -m "week1 HW done"  // -m: messenger`  
     或是  
-    `git commit -am "week1 HM done"  // -a: all`
+    `git commit -am "week1 HW done"  // -a: all`
 
     >註：`git commit -am` 不會把 new file 加到 staging area。
 
