@@ -1,4 +1,9 @@
+/* eslint-disable */
 function join(arr, concatStr) {
+  if (arr.length === 0) { // 經助教提醒後，補上 arr 為空陣列的處理。
+    return ''
+  }
+
   let result = ''
   for (let i = 0; i < arr.length; i++) {
     if (i !== arr.length - 1) {
