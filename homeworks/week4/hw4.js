@@ -1,11 +1,10 @@
-/* eslint-disable no-plusplus */
+/* eslint-disable no-plusplus, spaced-comment */
 const request = require('request');
 
 const options = {
   url: 'https://api.twitch.tv/kraken/games/top',
   headers: {
-    'User-Agent': 'request.GET', // eslint: quotes
-    // 自我檢討中是用 method: 'GET'，不知道我這樣寫可以嗎？一樣也可以爬到 twitch 的資料。
+    //'User-Agent': 'request.GET', // 助教批改完後進行修正
     Accept: 'application/vnd.twitchtv.v5+json', // eslint: quote-props
     'Client-ID': 'vudqmec43lb95kg44zg15xur4ik6b4',
   },
