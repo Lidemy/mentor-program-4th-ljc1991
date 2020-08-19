@@ -1,0 +1,75 @@
+body {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+  max-width: 645px;
+  background: white;
+  margin: 10% auto;
+  box-shadow: 1.8px 2.4px 5px 0 rgba(0, 0, 0, 0.3);
+  border-top: solid 8px #fad312;
+  padding: 54px 42px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.enroll-form__info {
+  line-height: 1.5em;
+  font-size: 14px;
+}
+
+.enroll-form__notice {
+  color: #e74149;
+  margin-top: 24px;
+  font-size: 16px;
+}
+
+.enroll-form__content {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.star-key {
+  color: #e74149;
+}
+
+.input-box {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.input-box label {
+  font-size: 14px;
+}
+
+#option-2 {
+  margin-top: 20px;
+}
+
+.advice {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.enroll-form__submit {
+  width: 92px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #fad312;
+  margin-top: 50px;
+  border: none;
+}
+
+.enroll-form__note {
+  font-size: 14px;
+}
+
+footer {
+  background: black;
+  padding: 24px 12px;
+  color: #999999;
+  text-align: center;
+  font-size: 13px;
+}
