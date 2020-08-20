@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>新拖延運動報名表單</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <form class="enroll-form">
+        <h1>新拖延運動報名表單</h1>
+
+        <div class="enroll-form__info">
+          活動日期：2020/12/10 ~ 2020/12/11<br />
+          活動地點：台北市大安區新生南路二段1號
+        </div>
+
+        <div class="enroll-form__notice">* 必填</div>
+
+        <div class="enroll-form__content">
+          <span class="nickname">暱稱</span>
+          <span class="star-key">*</span>
+          <div class="input-box">
+            <input type="text" name="nickname" placeholder="您的回答" />
+          </div>
+        </div>
+
+        <div class="enroll-form__content">
+          <span class="email">電子郵件</span>
+          <span class="star-key">*</span>
+          <div class="input-box">
+            <input type="text" name="email" placeholder="您的電子郵件" />
+          </div>
+        </div>
+
+        <div class="enroll-form__content">
+          <span class="phone">手機號碼</span>
+          <span class="star-key">*</span>
+          <div class="input-box">
+            <input type="text" name="phone" placeholder="您的手機號碼" />
+          </div>
+        </div>
+
+        <div class="enroll-form__content">
+          <span class="type">報名類型</span>
+          <span class="star-key">*</span>
+          <div class="input-box">
+            <input id="option-1" type="radio" name="option" /><label
+              for="option-1"
+            >
+              躺在床上用想像力實作</label
+            >
+            <br />
+            <input id="option-2" type="radio" name="option" /><label
+              for="option-2"
+            >
+              趴在地上滑手機找現成的</label
+            >
+          </div>
+        </div>
+
+        <div class="enroll-form__content">
+          <span class="reason">怎麼知道這個活動的？</span>
+          <span class="star-key">*</span>
+          <div class="input-box">
+            <input type="text" name="reason" placeholder="您的回答" />
+          </div>
+        </div>
+
+        <div class="enroll-form__content">
+          <div class="others">其他</div>
+          <div class="advice">對活動的一些建議</div>
+          <div class="input-box">
+            <input type="text" name="others" placeholder="您的回答" />
+          </div>
+        </div>
+
+        <input class="enroll-form__submit" type="submit" value="提交" />
+
+        <p class="enroll-form__note">請勿透過表單送出您的密碼。</p>
+      </form>
+    </div>
+
+    <footer>
+      © 2020 © Copyright. All rights Reserved.
+    </footer>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
