@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 400px;
+  max-width: 500px;
   margin: 5px auto;
   padding: 12px;
 }
@@ -15,7 +15,15 @@
   color: #bbb;
 }
 
+li {
+  display: flex;
+  align-items: center;
+}
+
+li:hover {
+  background: rgba(0, 0, 0, 0.01);
+}
 
 li>label[for='todo'] {
-  width: 210px;
+  flex: 1;
 }
